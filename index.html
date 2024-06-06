@@ -2,128 +2,181 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <title>X-Zone</title>
 </head>
 
 <body>
-    <header>
-        <a href="index.html">X-Zone</a>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
-        <button type="button">Contact Us</button>
+    <header class="header">
+        <div class="container header-container">
+            <a class="header-logo" href="index.html">X-Zone.</a>
+            <div class="header-menu-block">
+                <nav class="header-navigation">
+                    <ul class="header-menu">
+                        <li class="header-list"><a class="header-link" href="">Home</a></li>
+                        <li class="header-list"><a class="header-link" href="">About Us</a></li>
+                        <li class="header-list"><a class="header-link" href="">Service</a></li>
+                        <li class="header-list"><a class="header-link" href="">Pricing</a></li>
+                        <li class="header-list"><a class="header-link" href="">Blog</a></li>
+                    </ul>
+                </nav>
+                <button class="header-btn" type="button">Contact Us</button>
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Virtual Reality Business Solutions</h1>
-            <p>We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business
-                consultting
-                arena and artficial intelligence.
-            </p>
-            <button type="button">Join Us</button>
-            <img src="" alt="play">
-            <button type="button">Watch video</button>
+        <!----------------- service ------------------>
+        <section class="virtual">
+            <div class="container virtual-container">
+                <div class="virtual-blok">
+                    <h1 class="virtual-title">Virtual Reality Business Solutions</h1>
+                    <p class="virtual-text">We have over 15 year exprience in business consultting arena. We have
+                        over
+                        15
+                        year
+                        exprience in business
+                        consultting
+                        arena and artficial intelligence.
+                    </p>
+                    <button class="virtual-btn" type="button">Join Us</button>
+                    <a class="virtual-btn-video" href="">Watch video</a>
+                </div>
+                <img class="virtual-img" src="./img/Saly-19.png" width="746" height="746" alt="play">
+            </div>
         </section>
-        <section>
-            <h2>Our Service</h2>
-            <p>We turn information into actionable insights We work to understand your issues
-                and are driven to ask better questions in the pursuit of making work.</p>
-            <ul>
-                <li>
-                    <svg></svg>
-                    <h4>Order Management</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-                <li>
-                    <svg></svg>
-                    <h4>Social Assistant</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-                <li>
-                    <svg></svg>
-                    <h4>Crypto Platform</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-                <li>
-                    <svg></svg>
-                    <h4>Smart Trading Modules</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-                <li>
-                    <svg></svg>
-                    <h4>Analyzer of the News</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-                <li>
-                    <svg></svg>
-                    <h4>Module of Price Notification</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis
-                        congue nisl hendrerit
-                        commodo.</p>
-                    <a href="">Learn more <svg></svg></a>
-                </li>
-            </ul>
+
+        <!-------------------  service  ------------------->
+        <section class="service">
+            <div class="container">
+                <h2 class="service-title">Our Service</h2>
+                <p class="service-text">We turn information into actionable insights We work to understand your issues
+                    and are driven to ask better questions in the pursuit of making work.</p>
+                <ul class="service-menu">
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Order Management</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Social Assistant</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Crypto Platform</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Smart Trading Modules</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Analyzer of the News</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                    <li class="service-list">
+                        <svg class="service-icon"></svg>
+                        <h4 class="service-title-text">Module of Price Notification</h4>
+                        <p class="service-menu-text">Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+                            quis
+                            accumsan nisi Ut ut felis
+                            congue nisl hendrerit
+                            commodo.</p>
+                        <a class="service-menu-link" href="">Learn more <svg></svg></a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <img src="" alt="">
-            <h2>We complete every projects
+        <!---------------------- projects ------------------>
+        <section class="projects">
+            <img class="projects-img" src="" alt="">
+            <h2 class="projects-title">We complete every projects
                 extra care as customer need</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque
+            <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus,
+                non
+                suscipit arcu. Quisque
                 aliquam
                 posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit amet, consectetur
                 adipisicing elit.
-                Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit
+                Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora
+                odit
                 laborum iure
                 inventore possimus laboriosam qui nam.</p>
-            <button type="button">Read more</button>
-        </section>
-        <section>
-            <h2>We complete every project
+            <button class="projects-btn" type="button">Read more</button>
+            <h2 class="projects-title">We complete every project
                 extra care as customer need</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque
+            <p class="projects-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus,
+                non
+                suscipit arcu. Quisque
                 aliquam
                 posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit amet, consectetur
                 adipisicing elit.
-                Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit
+                Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora
+                odit
                 laborum iure
                 inventore possimus laboriosam qui nam.</p>
-            <button type="button">Read more</button>
-            <img src="" alt="">
+            <button class="projects-btn" type="button">Read more</button>
+            <img class="projects-img" src="" alt="">
         </section>
-        <section>
-            <h2>Met Our Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+        <section class="team">
+            <h2 class="team-title">Met Our Team</h2>
+            <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
                 accumsan nisi Ut ut felis congue nisl hendrerit commodo.
             </p>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <h3>Sunny Khan</h3>
-                    <p>Executive officer</p>
-                    <a href="">
+            <ul class="team-menu">
+                <li class="team-list">
+                    <img class="team-img" src="./img/Rectangle 56.png" width="90" height="89" alt="">
+                    <h3 class="team-title-text">Sunny Khan</h3>
+                    <p class="team-menu-text">Executive officer</p>
+                    <a class="team-menu-link" href="">
                         <svg></svg>
                     </a><a href="">
                         <svg></svg>
@@ -133,11 +186,11 @@
                         <svg></svg>
                     </a>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Alina Jesia</h3>
-                    <p>UX/UI DESIGNER</p>
-                    <a href="">
+                <li class="team-list">
+                    <img class="team-img" src="./img/Rectangle 56 (1).png" width="90" height="89" alt="">
+                    <h3 class="team-title-text">Alina Jesia</h3>
+                    <p class="team-menu-text">UX/UI DESIGNER</p>
+                    <a class="team-menu-link" href="">
                         <svg></svg>
                     </a><a href="">
                         <svg></svg>
@@ -147,11 +200,11 @@
                         <svg></svg>
                     </a>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Alex Sohag</h3>
-                    <p>BUSINESS DEVELOPMENT</p>
-                    <a href="">
+                <li class="team-list">
+                    <img class="team-img" src="./img/Rectangle 56 (2).png" width="90" height="89" alt="">
+                    <h3 class="team-title-text">Alex Sohag</h3>
+                    <p class="team-menu-text">BUSINESS DEVELOPMENT</p>
+                    <a class="team-menu-link" href="">
                         <svg></svg>
                     </a><a href="">
                         <svg></svg>
@@ -161,11 +214,11 @@
                         <svg></svg>
                     </a>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Afroza Mou</h3>
-                    <p>Head of marketing</p>
-                    <a href="">
+                <li class="team-list">
+                    <img class="team-img" src="./img/Rectangle 56 (3).png" width="90" height="89" alt="">
+                    <h3 class="team-title-text">Afroza Mou</h3>
+                    <p class="team-menu-text">Head of marketing</p>
+                    <a class="team-menu-link" href="">
                         <svg></svg>
                     </a><a href="">
                         <svg></svg>
@@ -177,14 +230,16 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Subscribe to get the Latest News</h2>
-            <p>We recommended you to subscribe to our newspaper,drop your email below to get daily update about us</p>
-            <input type="text"> <button type="button">Subscribe</button>
+        <section class="subscribe">
+            <h2 class="subscribe-title">Subscribe to get the Latest News</h2>
+            <p class="subscribe-text">We recommended you to subscribe to our newspaper,drop your email below to get
+                daily update about us</p>
+            <input class="subscribe-input" type="text">
+            <button class="subscribe-btn" type="button">Subscribe</button>
         </section>
     </main>
-    <footer>
-        <a href="">
+    <footer class="foooter">
+        <a class="foooter-link" href="">
             <svg></svg>
             Zone.</a>
         <address>
@@ -242,6 +297,7 @@
             </ul>
         </div>
     </footer>
+
 </body>
 
 </html>
